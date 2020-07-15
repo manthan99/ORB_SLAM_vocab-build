@@ -102,8 +102,8 @@ void changeStructure(const cv::Mat &plain, vector<cv::Mat> &out)
 void testVocCreation(const vector<vector<cv::Mat > > &features)
 {
   // branching factor and depth levels 
-  const int k = 9;
-  const int L = 3;
+  const int k = 10;
+  const int L = 6;
   const WeightingType weight = TF_IDF;
   const ScoringType scoring = L1_NORM;
 
@@ -133,7 +133,7 @@ void testVocCreation(const vector<vector<cv::Mat > > &features)
 
   // save the vocabulary to disk
   cout << endl << "Saving vocabulary..." << endl;
-  voc.save("small_voc.yml.gz");
+  voc.save("castle_ruins.yml.gz");
   cout << "Done" << endl;
 }
 
@@ -144,7 +144,7 @@ void testDatabase(const vector<vector<cv::Mat > > &features)
   cout << "Creating a small database..." << endl;
 
   // load the vocabulary from disk
-  OrbVocabulary voc("small_voc.yml.gz");
+  OrbVocabulary voc("castle_ruins.yml.gz");
   
   OrbDatabase db(voc, false, 0); // false = do not use direct index
   // (so ignore the last param)
