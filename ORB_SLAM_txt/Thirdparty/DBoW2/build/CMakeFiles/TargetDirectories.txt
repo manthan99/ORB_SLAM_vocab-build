@@ -1,3 +1,0 @@
-/home/manthan/ORB_SLAM_vocab-build/ORB_SLAM_txt/Thirdparty/DBoW2/build/CMakeFiles/rebuild_cache.dir
-/home/manthan/ORB_SLAM_vocab-build/ORB_SLAM_txt/Thirdparty/DBoW2/build/CMakeFiles/DBoW2.dir
-/home/manthan/ORB_SLAM_vocab-build/ORB_SLAM_txt/Thirdparty/DBoW2/build/CMakeFiles/edit_cache.dir
