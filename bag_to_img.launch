@@ -1,8 +1,8 @@
 <launch>
-  <node pkg="rosbag" type="play" name="rosbag" args="-d 2 /home/manthan/castle_ruins_vocab.bag"/>
+  <node pkg="rosbag" type="play" name="rosbag" args="-d 2 ~/castle_ruins_vocab.bag"/>
   <node name="extract" pkg="image_view" type="extract_images" respawn="false" cwd="node">
     <remap from="image" to="/airsim_node/drone_1/front_center/Scene"/>
-    <param name="filename_format" value="/home/manthan/vocab_dataset/image%i.png"/>
+    <param name="filename_format" value="~/ORB_SLAM_vocab-build/DBoW2/demo/images/image%i.png"/>
     <param name="_sec_per_frame" value="0.1"/>
   </node>
 </launch>
