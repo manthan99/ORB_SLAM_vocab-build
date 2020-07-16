@@ -1,5 +1,7 @@
 # ORB_SLAM_vocab-build
 
+The state of the art SLAM algorithms like ORB SLAM use a bag-of-words approach to create a vocabulary of words which can be used for the purpose of place recognition and detection of loop closures. The default dictionary ```ORBvoc.txt``` is sufficient in most of the cases of indoor and outdoor environments, though it is observed that the performance drops in a highly specialised environment like underwater or non common environments. No proper instructions have been provided which can be used to create your own custom vocabulary. Thus this repository contains step by step procedure to create your own vocabulary using custom dataset which can be directly used for ORB SLAM.
+
 This repository can be used to create custom bag of words vocabulary which can be directly used for ORB SLAM/ORB SLAM2.
 It consists of 2 major sub-folders:  
 
