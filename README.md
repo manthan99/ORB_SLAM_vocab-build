@@ -97,5 +97,5 @@ make -j
  
   * A couple of vocabulary files have been provided in the Example_Vocab folder(```~/ORB_SLAM_vocab-build/ORB_SLAM_txt/Example_Vocab```).
     1. ORBvoc.txt.tar.gz (The default vocabulary for ORB SLAM)
-    2. Castle_Ruins_voc.zip (Vocabulary for the Castle Ruins Airsim Environment)(Link)
+    2. Castle_Ruins_voc.zip (Vocabulary for the Castle Ruins Airsim Environment)([Link](http://patelmanthan.in/castle-ruins-airsim/))
   
