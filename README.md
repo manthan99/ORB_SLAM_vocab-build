@@ -72,6 +72,7 @@ make -j
   * Now we need to create the executable for demo.cpp
      ```
      cd ~/ORB_SLAM_vocab-build/DBoW2/build
+     cmake ..
      make -j
      ```
   * Execute *demo*. This will create a vocabulary and save it as a yml file. It may take upto a few hours if you have images in the order of *10^3*.
