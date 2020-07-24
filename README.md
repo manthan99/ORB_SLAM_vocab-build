@@ -84,7 +84,7 @@ make -j
 
   * This is a necessary step in order to use the vocabulary for ORB_SLAM. ORB_SLAM does not support yml file format.
   * Copy the created yml file (default - ```castle_ruins.yml.gz```) to the following folder - ```~/ORB_SLAM_vocab-build_copy/ORB_SLAM_txt/Vocab```
-  * Edit the input and output file in line no. *20* and *21* of ```covert_to_txt.cpp```(```~/ORB_SLAM_vocab-build_copy/ORB_SLAM_txt/Vocab/convert_to_txt.cpp```)
+  * Edit the input and output file in line no. *20* and *21* of ```covert_to_txt.cpp```(```~/ORB_SLAM_vocab-build/ORB_SLAM_txt/Vocab/convert_to_txt.cpp```)
   * Create a executable and run-
      ```
      cd ~/ORB_SLAM_vocab-build/ORB_SLAM_txt/build/
